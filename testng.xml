@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="HomePage Suite">
+    <parameter name="browserName" value="chrome"/>
+    <test name="All Tests">
+        <classes>
+            <class name="TuwaiqWebApplication.HomePageTest">
+            </class>
+        </classes>
+    </test>
+</suite>
