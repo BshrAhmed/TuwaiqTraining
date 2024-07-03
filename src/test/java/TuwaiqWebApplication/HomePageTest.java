@@ -1,6 +1,5 @@
 package TuwaiqWebApplication;
 
-
 import Base.BaseClass;
 import Pages.HomePages;
 import org.testng.annotations.Test;
