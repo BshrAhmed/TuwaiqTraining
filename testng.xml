@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="HomePage Suite">
+    <!-- Defines a TestNG suite named "HomePage Suite" -->
+
     <parameter name="browserName" value="chrome"/>
+    <!-- Specifies a parameter named "browserName" with the value "chrome".
+         This parameter can be used in your test class to dynamically configure the browser. -->
+
     <test name="All Tests">
+        <!-- Defines a TestNG test named "All Tests" within the suite -->
+
         <classes>
+            <!-- Specifies the classes that should be included in this test -->
             <class name="TuwaiqWebApplication.HomePageTest">
+                <!-- Specifies the fully qualified class name "TuwaiqWebApplication.HomePageTest"
+                     which contains the test methods to be executed. -->
             </class>
         </classes>
     </test>
