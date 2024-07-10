@@ -8,9 +8,7 @@ import org.testng.annotations.BeforeClass; // Imports BeforeClass annotation fro
 import java.util.concurrent.TimeUnit; // Imports TimeUnit class from Java's concurrent package
 
 public class BaseClass { // Defines a public class named BaseClass
-
     public WebDriver driver; // Declares a WebDriver object named driver
-
     @BeforeClass
     public void setUp() { // Method executed before the first test method in the current class
 
@@ -22,7 +20,6 @@ public class BaseClass { // Defines a public class named BaseClass
         driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS); // Sets implicit wait time for WebDriver operations
         driver.get("https://tuwaiq.edu.sa/"); // Navigates to the specified URL
     }
-
     @AfterClass
     public void tearDown() { // Method executed after all the test methods in the current class
 

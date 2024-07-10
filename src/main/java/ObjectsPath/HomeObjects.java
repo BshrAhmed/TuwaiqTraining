@@ -24,5 +24,5 @@ public class HomeObjects { // Defines a public class named HomeObjects
     public static final By selectCategoryValue = By.xpath("/html/body/main/section[1]/div/section[1]/div/div[1]/div[2]/button[2]");
 
     // Static final By object representing a specific program card
-    public static final By automationProgramCard = By.xpath("//h2[text()='أتمتة اختبار البرمجيات']");
+    public static final By automationProgramCard = By.xpath("/html/body/main/section[1]/div/section[1]/div/div[3]/div[2]/div/div[2]/a");
 }

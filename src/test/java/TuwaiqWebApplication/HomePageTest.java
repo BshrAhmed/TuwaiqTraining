@@ -44,6 +44,7 @@ public class HomePageTest extends BaseClass { // Defines a public class named Ho
         homepage.VerifyEnglish(); // Verifies and clicks on the English language button
         Thread.sleep(2000); // Pauses execution for 2 seconds
         homepage.BootCampsAndCourses(); // Clicks on the Boot Camps and Courses tab
+
     }
 
     @Test
